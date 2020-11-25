@@ -1,0 +1,77 @@
+#all {
+   border-radius:10px;
+   padding: 20px;
+   display:inline-block;
+   margin:80px 80px -10px 80px;
+   width:90%;
+}
+ 
+.cues {
+   color:black;
+}
+ 
+.cues:hover {
+   text-decoration: underline;
+}
+ 
+.cues.current{
+   color:blue;
+   font-weight: bold;
+}
+ 
+#myVideo {
+   border-radius:10px;    
+   display: block;
+   float : left;
+   margin-right: 3%;
+   width: 60%;
+   background-color: black;
+   position: relative;
+}
+.next{
+    background-color: #d9d9d9;
+} 
+#Transcript {    
+   border-radius:10px;
+   padding: 10px;
+   float: left;
+   max-height:280px;
+   overflow:auto;
+   width:37%;
+   background-color:#d9d9d9;     
+   margin:0;
+   font-size: 14px;
+   list-style: none;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+video::-webkit-media-controls-mute-button{
+display:none;
+}  
+video::-webkit-media-controls-volume-slider {
+display:none;
+}  
+#myDIV {
+  display: none;
+}
+@media only screen and (min-width: 600px) {
+  #transcript {    
+   border-radius:10px;
+   padding: 10px;
+   float: left;
+   max-height:250px;
+   overflow:auto;
+   width:37%;
+   background-color:#d9d9d9;     
+   margin:0;
+   font-size: 14px;
+   list-style: none;
+}
+}
