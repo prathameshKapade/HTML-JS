@@ -161,12 +161,12 @@ function addCueListeners(cue) {
      console.log('enter id=' + this.id);
      var transcriptText = document.getElementById(this.id);
      transcriptText.classList.add("current");
-      video.playbackRate = 0.50;
+      video.playbackRate = 0.59;
       transText = cue.text; 
       var msg = new SpeechSynthesisUtterance();
       msg.lang = "en-IN";
       msg.volume = 1;
-      msg.rate = 0.50;
+      msg.rate = 0.59;
       msg.pitch = 1; 
       msg.text =transText;
       window.speechSynthesis.speak(msg);
