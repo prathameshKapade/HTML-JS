@@ -163,13 +163,13 @@ function addCueListeners(cue) {
      transcriptText.classList.add("current");
       video.playbackRate = 0.50;
       transText = cue.text; 
-      var msg = new SpeechSynthesisUtterance();
-      msg.lang = "en-US";
-      msg.volume = 1;
-      msg.rate = 0.50;
-      msg.pitch = 1; 
-      msg.text =transText;
-      window.speechSynthesis.speak(msg);
+     // var msg = new SpeechSynthesisUtterance();
+      //msg.lang = "en-US";
+      //msg.volume = 1;
+     // msg.rate = 0.50;
+     //msg.pitch = 1; 
+     //msg.text =transText;
+     //window.speechSynthesis.speak(msg);
 };
  
 cue.onexit = function(){
